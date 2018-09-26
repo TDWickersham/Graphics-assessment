@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ButtonPlacer : MonoBehaviour
 {
     public GameObject[] placements;
@@ -10,17 +11,21 @@ public class ButtonPlacer : MonoBehaviour
 
     public void PlaceHouse()
     {
-        GameObject.Instantiate<GameObject>(placements[1]);
+        Placement place = GetComponent<Placement>();
+        place.placer = placements[1];
+        
     }
 
     public void PlaceTree()
     {
-        GameObject.Instantiate<GameObject>(placements[0]);
+        Placement place = GetComponent<Placement>();
+        place.placer = placements[0];
     }
 
     public void PlacePath()
     {
-        GameObject.Instantiate<GameObject>(placements[2]);
+        Placement place = GetComponent<Placement>();
+        place.placer = placements[2];
     }
 
  
