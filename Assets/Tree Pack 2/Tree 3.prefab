@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3374382}
   - component: {fileID: 2397296}
   - component: {fileID: 64455252491898138}
+  - component: {fileID: 195941781071427886}
   m_Layer: 0
   m_Name: Tree 3
   m_TagString: Untagged
@@ -11361,3 +11362,24 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4309704}
+--- !u!195 &195941781071427886
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142600}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 12.585704
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 49.427155
+  m_BaseOffset: 24.713577
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

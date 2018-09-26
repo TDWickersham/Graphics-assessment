@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 65044183231751742}
   - component: {fileID: 23634922123330336}
   - component: {fileID: 33218972153223530}
+  - component: {fileID: 195899275410570078}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -341,3 +342,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7, y: 5, z: 6}
   m_Center: {x: 0, y: 2, z: 0}
+--- !u!195 &195899275410570078
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145956}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
